@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/drawable/button_customization.xml" value="0.290625" />
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/drawable/custom_ratingbar.xml" value="0.275" />
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/drawable/faded_image.xml" value="0.290625" />
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/drawable/rounded_input.xml" value="0.290625" />
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/layout/account_information.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/layout/admin_login.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/layout/admin_register.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/layout/choose_barber.xml" value="0.264" />
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/layout/choose_plan.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/layout/forgot_password_activity.xml" value="0.264" />
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/layout/login_activity.xml" value="0.264" />
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/layout/mainpage.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/layout/mainpage_activity.xml" value="0.264" />
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/layout/pick_date.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/layout/pick_time.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/layout/pick_time_date.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/layout/profile_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/dudu_/AndroidStudioProjects/LicentaApp/app/src/main/res/layout/register_activity.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

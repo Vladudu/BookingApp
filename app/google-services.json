@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "384066401953",
+    "firebase_url": "https://licentaapp-b9723-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "licentaapp-b9723",
+    "storage_bucket": "licentaapp-b9723.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384066401953:android:2ac7c867bc593050f422e0",
+        "android_client_info": {
+          "package_name": "com.ueo.licentaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384066401953-c1a8igt38ohgs9p65g98j27ar9l9f9o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQrUiIt58ZSPDgZYSxmeR8v1jnV1RWsfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384066401953-c1a8igt38ohgs9p65g98j27ar9l9f9o6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

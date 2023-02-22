@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+
+        android:text="Alege serviciul dorit:"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:background="@color/gold"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints,NotSibling">
+
+        <CheckBox
+            android:id="@+id/checkbox_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textview_service_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Tuns simplu"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textview_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="117dp"
+            android:padding="16dp"
+            android:text="30 lei"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@color/gold"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <CheckBox
+            android:id="@+id/checkbox_service1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textview_service_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Tuns + aranjat barba"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textview_price1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:padding="16dp"
+            android:text="40 lei"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@color/gold"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout1">
+
+        <CheckBox
+            android:id="@+id/checkbox_service2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textview_service_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Tuns zero"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textview_price2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="137dp"
+            android:padding="16dp"
+            android:text="20 lei"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@color/gold"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <CheckBox
+            android:id="@+id/checkbox_service3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textview_service_name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Aranjat barba"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textview_price3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="107dp"
+            android:padding="16dp"
+            android:text="10 lei"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
